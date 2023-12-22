@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sty.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="loginForm">
+    <div class="conter">
+        <div class="id">
+        <label for="username" class="Username">UserName</label><br>
+        <input type="text" class="username" id="username" required>
+        <p id="demo"></p>
+        </div>
+        <br>
+        <div>
+        <label for="password">Password</label><br>
+        <input type="password" class="password" id="password" required>
+        <p id="demo1"></p>
+        <br><br>
+        </div>
+        <div>
+            <select name="role" id="role" fdprocessedid="ucivme">
+                <option value="" selected="" disabled="">Select Role</option>
+                <option value="buyer">Buyer</option>
+                <option value="seller">Seller</option>
+                <option value="visitor">Visitor</option>
+              </select>
+        </div>
+        <button type="button" onclick="add()">ล็อกอิน</button>
+    </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

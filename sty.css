@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    max-width: 2000px;
+    margin: 0;
+    overflow: hidden;
+    background-image: url("7db24b01a8ba90ab48a448d01f32aa60.gif");
+    background-size: cover; 
+    background-position: center; 
+    animation: moveBackground 10s linear infinite;
+  }
+  @keyframes moveBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+.conter{
+    max-width: 400px;
+    height: 360px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border: solid black 1px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+.id{
+    margin-top: 40px;
+}
+button{
+    margin-top: 50px;
+}
+.bo{
+    color: red;
+}
+button{
+   width: 100px;
+   background-color: rgb(19, 223, 19);
+   /* border: 20px; */
+   border-radius: 10px;
+}
+input{
+    max-width: 600px;
+    border-radius: 7px;
+}
+select{
+  border-radius: 10px;
+}
